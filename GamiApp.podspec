@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
-    s.name                      = "Gamibot"
-    s.version                   = "1.2.0"
-    s.summary                   = "Gamibot"
+    s.name                      = "GamiApp"
+    s.version                   = "1.5.0"
+    s.summary                   = "GamiApp"
     s.description               = "Gamibot, is the loyality program that provide gamified user journey, with rewarding system, where users can get points by doing certine actions. and they can be rewarded for doing these actions."
     s.homepage                  = "https://gamiphy.co"
     s.license                   = { :type => "MIT", :file => "LICENSE" }
@@ -11,8 +11,7 @@ Pod::Spec.new do |s|
     s.source                    = { :git => "https://bitbucket.org/gamiphy/gamibot-ios.git" , :tag => s.version}
     s.source_files              = "**/**/*.{swift}"
     s.resources                 = [
-      "**/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}",
-      '**/**/Info.plist'
+      "**/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
     ]
     s.framework                  = "UIKit"
 end
